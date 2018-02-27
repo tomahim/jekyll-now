@@ -50,7 +50,7 @@ Syntax highlighting can be used with triple backticks, like so:
 var rawr = ["r", "a", "w", "r"]; 
 {% endhighlight %}
 
-{% highlight ruby linenos %}
+{% highlight ruby linenos=table %}
 def foo
   puts 'foo'
 end
