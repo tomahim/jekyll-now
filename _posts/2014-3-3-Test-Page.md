@@ -56,6 +56,8 @@ def foo
 end
 {% endhighlight %}
 
+{% gist 8387126 %}
+
 Use two trailing spaces  
 on the right  
 to create linebreak tags  
