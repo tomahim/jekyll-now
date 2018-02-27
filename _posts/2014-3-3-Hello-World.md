@@ -45,9 +45,16 @@ Inline markup styles:
 >> Nested Blockquote
 
 Syntax highlighting can be used with triple backticks, like so:
+{% highlight javascript %}
+/* Some pointless Javascript */ 
+var rawr = ["r", "a", "w", "r"]; 
+{% endhighlight %}
 
-{{ "{% highlight javascript " }}%}
-/* Some pointless Javascript */ var rawr = ["r", "a", "w", "r"]; {{ "{% endhighlight " }}%}
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 
 Use two trailing spaces  
 on the right  
